@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 20, 63);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.list a {
+  padding: 10px;
+}
+
+.login a {
+  padding: 10px;
+}
+
+.login a:last-child {
+  background-color: rgb(6, 80, 80);
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-area {
+  text-align: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.main-area p:first-child {
+  color: aqua;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.main-area h1 {
+  color: white;
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.main-area p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-area button {
+  background-color: aqua;
+  padding: 15px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.main-area button:last-child {
+  background-color: rgb(12, 20, 63);
+  padding: 15px;
+  width: 150px;
+  border: 2px solid aqua;
+  color: aqua;
+  border-radius: 5px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.box {
+  background-color: #fff;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+}
+
+.icon {
+  background-color: rgb(209, 185, 155);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: red;
+  border-radius: 5px;
+}
+
+.box h6 {
+  padding-top: 20px;
+}
+
+.border-bottom {
+  border-bottom: 2px solid red;
+  width: 50px;
+  height: 20px;
+}
+
+.box p {
+  color: rgb(105, 92, 92);
+  padding-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.check {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(19, 112, 81);
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: aqua;
+  border-radius: 5px;
+}
+
+.boxes .box:last-child {
+  background-color: aqua;
+  color: #fff;
+}
+
+.boxes .box:last-child p {
+  color: #fff;
+}
+
+.border-bottom-white {
+  border-bottom: 2px solid #fff;
+  width: 50px;
+  height: 20px;
+}

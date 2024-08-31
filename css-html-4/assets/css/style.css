@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/223/994/459/horizon-landscape-mountain-range-mountains-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.navbar a:nth-child(1):hover {
+  color: orangered;
+  transition: 0.1;
+}
+
+.navbar a {
+  color: #000;
+}
+
+.details {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.details h1 {
+  font-size: 70px;
+}
+
+.border-bottom {
+  width: 30px;
+  height: 10px;
+  border-bottom: 2px solid dimgray;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+}
